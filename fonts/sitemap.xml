@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>/index.html</loc>
+		<changefreq>yearly</changefreq>
+		<priority>0.5</priority>
+		<lastmod>2016-12-06</lastmod>
+	</url>
+	<url>
+		<loc>/movies.html</loc>
+		<changefreq>daily</changefreq>
+		<priority>1</priority>
+		<lastmod>2016-12-06</lastmod>
+	</url>
+	<url>
+		<loc>/contact.php</loc>
+		<changefreq>never</changefreq>
+		<priority>0.2</priority>
+		<lastmod>2016-12-06</lastmod>
+	</url>
+	<url>
+		<loc>/feedback.php</loc>
+		<changefreq>never</changefreq>
+		<priority>0.2</priority>
+		<lastmod>2016-12-06</lastmod>
+	</url>
+	<url>
+		<loc>/movies.php*</loc>
+		<changefreq>always</changefreq>
+		<priority>1</priority>
+		<lastmod>2016-12-06</lastmod>
+	</url>
+</urlset>

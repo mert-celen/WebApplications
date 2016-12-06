@@ -1,0 +1,18 @@
+Array
+(
+    [first_name] => Mert
+    [last_name] => ÇELEN
+    [email] => mert_celen@icloud.com
+    [username] => mertcelen
+    [password] => 123qwe
+)
+
+Array
+(
+    [first_name] => Rachel
+    [last_name] => McAdams
+    [email] => rachel@mcadams.com
+    [username] => rachelmc
+    [password] => 123qwe
+)
+

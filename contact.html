@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Waterford Cinemas</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div id="mainWrapper">
+        <header>
+            <ul class="nav nav-pills pull-right">
+                <li><img width="64" height="64" src="img/video-camera.png" alt="Waterford Cinemas"></li>
+            </ul>
+            <h1 class="title">Waterford Cinemas</h1>
+            <br>
+            <br>
+            <nav class="nav">
+                <button class="btn btn-default" onclick="window.location = '/index.html'">Home</button>
+                <button class="btn btn-default" onclick="window.location = '/movies.html'">Movies</button>
+                <button class="btn btn-default" onclick="window.location = '/register.php'">Register</button>
+                <button class="btn btn-default" onclick="window.location = '/contact.html'">Contact</button>
+                <button class="btn btn-default" onclick="window.location = '/feedback.php'">Feedback</button>
+                <form class="navbar-form navbar-right" action="movie.php" method="get">
+                    <div class="form-group">
+                        <input name="name" type="name" class="form-control" placeholder="Movie Name">
+                    </div>
+                    <button type="submit" class="btn btn-default">Search</button>
+                </form>
+            </nav>
+        </header>
+        <div class="content">
+            <table>
+                <tr>
+                    <td style="width: 400px">
+                        <h3>Adress</h3>
+                        <p>Waterford Institute of Technology, Cork Rd, Waterford </p>
+                        <h3>Times</h3>
+                        <h4>WeekDays : 10:00-20:00</h4>
+                        <h4>WeekEnds : 10:00-23:00</h4>
+                        <h3>Our Contact Email</h3>
+                        <h4><a href="mailto:mert_celen@icloud.com">mert_celen@icloud.com</a></h4>
+                    </td>
+                    <td style="width: 400px">
+                        <div>
+                            <iframe width="100%" height="300" src="http://www.mapi.ie/create-google-map/map.php?width=100%&amp;height=300&amp;hl=en&amp;coord=52.2450767,-7.1395832&amp;q=Waterford%20Institute%20of%20Technology+(Waterford%20Cinemas)&amp;ie=UTF8&amp;t=p&amp;z=15&amp;iwloc=A&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="http://www.mapsdirections.info/pl/stworz-mape-google/">Google Maps na swojej stronie internetowej</a> na <a href="http://www.mapsdirections.info/pl/">Narzędzie Planowania Trasy</a></iframe>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <footer>
+            Mert CELEN 2016
+        </footer>
+    </div>
+</body>
+
+</html>

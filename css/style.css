@@ -1,0 +1,95 @@
+#mainWrapper{
+	margin: 30px;
+	background-color: #607D8B;
+	height: 100%;
+	border-radius: 30px;
+	padding: 30px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+header{
+	background-color: #455A64;
+	height: 200px;
+	color: white;
+	font-weight: bolder;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+footer{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-weight: bolder;
+	color: white;
+	background-color: #455A64;
+		border-radius: 10px;
+}
+.content{
+	padding: 30px;
+	display: inline-block;
+}
+.content .movie{
+	float: left;
+	background-color: #90A4AE;
+	padding: 10px;
+	border-radius: 20px;
+	margin: 10px;
+}
+
+.movie img{
+	height: 346px;
+	width: 230px;
+}
+
+.peoplePicture img{
+    width:230px;
+    height:346px;
+}
+
+.peoplePicture{
+    width: 230px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bolder;
+    margin:20px;
+}
+
+.moviePicture img{
+    width: 374px;
+    height: 562px;
+}
+.movieTitle{
+    font-size:40px;
+    font-weight: bolder;
+}
+
+.moviePlot{
+	font-size: 20px;
+	font-weight: bolder;
+	padding: 30px;
+}
+
+li{
+    list-style: none;
+    float: left;
+}
+
+.content a{
+	color: white;
+	text-decoration:none;
+}
+
+.content form{
+	color: black;
+}
+
+#success_message{ display: none;}
+
+.form-group,.well{
+		background-color: #90A4AE;
+		border: 0px solid transparent;
+}
